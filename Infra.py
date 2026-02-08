@@ -1,3 +1,7 @@
+#MathysBrahmiaFerrier
+#Modélisation de projets
+
+
 import os
 import streamlit as st
 import pandas as pd
@@ -347,4 +351,5 @@ if st.sidebar.button("🚀 Lancer la Simulation", type="primary"):
         ax.grid(True, alpha=0.3)
         ax.legend()
         st.pyplot(fig_sens)
+
 
